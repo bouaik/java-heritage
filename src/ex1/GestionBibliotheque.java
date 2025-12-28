@@ -1,3 +1,5 @@
+package ex1;
+
 public class GestionBibliotheque {
     public static void main(String[] args) {
 

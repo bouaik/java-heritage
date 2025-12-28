@@ -1,3 +1,5 @@
+package ex1;
+
 class Livre {
     private int isbn;
     private String titre;
@@ -12,7 +14,7 @@ class Livre {
 
     @Override
     public String toString() {
-        return "--- Livre ---\n" +
+        return "--- ex1.Livre ---\n" +
                 "ISBN: " + isbn + "\n" +
                 "Titre: " + titre + "\n" +
                 "Écrit par: " + auteur.toString();

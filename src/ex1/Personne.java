@@ -1,3 +1,5 @@
+package ex1;
+
 public class Personne {
     private String nom;
     private String prenom;
@@ -15,7 +17,7 @@ public class Personne {
 
     @Override
     public String toString() {
-        return "Personne{" +
+        return "ex1.Personne{" +
                 "nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
                 ", email='" + email + '\'' +

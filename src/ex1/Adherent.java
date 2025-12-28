@@ -1,3 +1,5 @@
+package ex1;
+
 class Adherent extends Personne {
     private int numAdherent;
 

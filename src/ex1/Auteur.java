@@ -1,3 +1,5 @@
+package ex1;
+
 class Auteur extends Personne {
     private int numAuteur;
 
@@ -8,6 +10,6 @@ class Auteur extends Personne {
 
     @Override
     public String toString() {
-        return "Auteur N°" + numAuteur + " (" + super.toString() + ")";
+        return "ex1.Auteur N°" + numAuteur + " (" + super.toString() + ")";
     }
 }
